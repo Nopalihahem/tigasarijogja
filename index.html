@@ -1,77 +1,304 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Jual Telur Kampung Omega Tinggi Nutrisi | Segar & Alami</title>
-    <meta name="description" content="Cari telur kampung omega berkualitas? Telur kami mengandung omega-3 tinggi, rendah kolesterol, dan bebas kimia. Pesan sekarang untuk hidup sehat!">
-    <meta name="keywords" content="telur kampung omega, jual telur sehat, omega 3, telur organik">
-    
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #f9f9f9; }
-        header { background: #ff9800; color: white; padding: 2rem text-align: center; }
-        nav { background: #333; color: white; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1, h2 { color: #e65100; }
-        img { max-width: 100%; height: auto; border-radius: 8px; margin: 20px 0; display: block; }
-        .article-divider { border-top: 2px solid #eee; margin: 40px 0; }
-        footer { text-align: center; padding: 20px; font-size: 0.9rem; color: #666; }
-        .cta-button { display: inline-block; background: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Jual Telur Kampung Omega Tinggi Nutrisi | Segar & Sehat</title>
+
+  <meta
+    name="description"
+    content="Telur kampung omega premium dengan kandungan omega-3 tinggi, rendah kolesterol, segar langsung dari peternakan alami. Cocok untuk keluarga sehat."
+  />
+
+  <meta
+    name="keywords"
+    content="telur kampung omega, telur omega 3, telur sehat, telur organik, telur kampung premium"
+  />
+
+  <meta property="og:title" content="Telur Kampung Omega Premium" />
+  <meta
+    property="og:description"
+    content="Telur omega berkualitas tinggi untuk kesehatan keluarga Anda."
+  />
+
+  <meta
+    property="og:image"
+    content="https://images.unsplash.com/photo-1506976785307-8732e854ad03?q=80&w=1200&auto=format&fit=crop"
+  />
+
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8f8f8;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    header {
+      background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url('https://images.unsplash.com/photo-1506976785307-8732e854ad03?q=80&w=1600&auto=format&fit=crop')
+        center/cover no-repeat;
+
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    nav {
+      background: #ffffff;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    nav a {
+      color: #e67e22;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #c0392b;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 35px;
+      margin-bottom: 35px;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #d35400;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 12px;
+      color: #444;
+    }
+
+    p {
+      margin-bottom: 18px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 14px;
+      margin: 25px 0;
+      object-fit: cover;
+      max-height: 450px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      color: #e67e22;
+      font-weight: bold;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #ff9800, #ff6f00);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 16px;
+      margin-top: 30px;
+    }
+
+    .cta-box h2 {
+      color: white;
+      margin-bottom: 15px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      background: #2ecc71;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #27ae60;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background: #222;
+      color: #bbb;
+      text-align: center;
+      padding: 25px;
+      margin-top: 50px;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 80px 20px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      .card {
+        padding: 25px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 8px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Premium Telur Kampung Omega</h1>
-    <p>Solusi Nutrisi Terbaik untuk Keluarga Anda</p>
-</header>
+  <header>
+    <h1>Telur Kampung Omega Premium</h1>
+    <p>
+      Telur sehat kaya Omega-3, segar langsung dari peternakan alami,
+      pilihan terbaik untuk menjaga kesehatan keluarga Anda.
+    </p>
+  </header>
 
-<nav>
-    <a href="#artikel1">Manfaat Omega</a>
-    <a href="#artikel2">Ciri Telur Segar</a>
-</nav>
+  <nav>
+    <a href="#manfaat">Manfaat Omega</a>
+    <a href="#ciri">Ciri Telur Segar</a>
+    <a href="#pesan">Pesan Sekarang</a>
+  </nav>
 
-<div class="container">
-    
-    <article id="artikel1">
-        <h2>Rahasia Sehat dengan Konsumsi Telur Kampung Omega</h2>
-        <p>Pernahkah Anda bertanya-tanya mengapa <strong>telur kampung omega</strong> selalu menjadi primadona bagi pecinta hidup sehat? Dibandingkan telur biasa, telur ini memiliki keunggulan nutrisi yang jauh lebih signifikan.</p>
-        
-        <img src="https://images.unsplash.com/photo-1582722872445-44ad5c78a1dd?auto=format&fit=crop&w=800&q=80" alt="Telur kampung omega kualitas premium dengan kuning telur oranye">
-        
-        <h3>Keunggulan Nutrisi Omega-3</h3>
-        <p>Ayam kami diberi pakan alami yang diperkaya dengan biji-bijian sumber Omega-3, menghasilkan telur yang rendah kolesterol jahat dan sangat baik untuk perkembangan otak anak serta kesehatan jantung orang dewasa.</p>
-        
-        <img src="https://images.unsplash.com/photo-1516448620398-c5f44bf9f441?auto=format&fit=crop&w=800&q=80" alt="Peternakan ayam kampung organik bebas kandang">
-    </article>
+  <main class="container">
 
-    <div class="article-divider"></div>
+    <section class="card" id="manfaat">
+      <h2>Manfaat Telur Kampung Omega untuk Kesehatan</h2>
 
-    <article id="artikel2">
-        <h2>Cara Membedakan Telur Kampung Omega yang Asli dan Segar</h2>
-        <p>Jangan sampai salah pilih. <strong>Telur kampung omega</strong> yang asli memiliki karakteristik fisik yang berbeda dari telur ayam ras biasa atau telur kampung standar.</p>
-        
-        <h3>Ciri Fisik Telur Omega</h3>
-        <ul>
-            <li><strong>Cangkang:</strong> Lebih tebal dan tidak mudah retak.</li>
-            <li><strong>Warna Kuning:</strong> Berwarna oranye pekat (bukan kuning muda).</li>
-            <li><strong>Kekentalan:</strong> Putih telur lebih kental dan tidak encer saat dipecahkan.</li>
-        </ul>
-        
-        <p>Dapatkan stok telur segar langsung dari peternakan kami setiap harinya untuk menjamin kualitas yang Anda konsumsi.</p>
-        
-        <div style="text-align: center; margin-top: 30px;">
-            <a href="https://wa.me/nomor-whatsapp-anda" class="cta-button">Pesan Telur Sekarang via WhatsApp</a>
-        </div>
-    </article>
+      <p>
+        <span class="highlight">Telur kampung omega</span>
+        memiliki kandungan nutrisi lebih tinggi dibanding telur biasa.
+        Kandungan Omega-3 membantu menjaga kesehatan jantung,
+        meningkatkan fungsi otak, dan mendukung pertumbuhan anak.
+      </p>
 
-</div>
+      <img
+        src="https://images.unsplash.com/photo-1587486913049-53fc88980cfc?q=80&w=1200&auto=format&fit=crop"
+        alt="Telur kampung omega premium segar berkualitas tinggi"
+      />
 
-<footer>
-    &copy; 2026 Toko Telur Kampung Omega. All Rights Reserved.
-</footer>
+      <h3>Kenapa Memilih Produk Kami?</h3>
+
+      <p>
+        Ayam dipelihara secara alami dengan pakan bernutrisi tinggi,
+        tanpa bahan kimia berbahaya dan tanpa hormon tambahan.
+        Hasilnya adalah telur yang lebih sehat, lebih segar,
+        dan memiliki rasa yang lebih gurih alami.
+      </p>
+
+      <img
+        src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?q=80&w=1200&auto=format&fit=crop"
+        alt="Peternakan ayam kampung alami dan sehat"
+      />
+    </section>
+
+    <section class="card" id="ciri">
+      <h2>Cara Mengenali Telur Kampung Omega Berkualitas</h2>
+
+      <p>
+        Banyak produk di pasaran mengklaim sebagai telur omega,
+        namun tidak semuanya memiliki kualitas yang baik.
+      </p>
+
+      <h3>Ciri Telur Omega Berkualitas:</h3>
+
+      <ul>
+        <li><strong>Cangkang lebih kuat</strong> dan tidak mudah retak.</li>
+        <li><strong>Kuning telur oranye pekat</strong> menandakan nutrisi tinggi.</li>
+        <li><strong>Putih telur lebih kental</strong> dan tidak encer.</li>
+        <li><strong>Aroma lebih segar</strong> dan tidak amis berlebihan.</li>
+      </ul>
+
+      <p>
+        Kami memastikan setiap telur dipanen segar setiap hari
+        langsung dari peternakan untuk menjaga kualitas terbaik.
+      </p>
+    </section>
+
+    <section class="cta-box" id="pesan">
+      <h2>Pesan Telur Kampung Omega Sekarang</h2>
+
+      <p>
+        Nikmati telur sehat premium dengan kualitas terbaik
+        untuk kebutuhan nutrisi keluarga Anda.
+      </p>
+
+      <a
+        href="https://wa.me/6281234567890"
+        class="cta-button"
+        target="_blank"
+      >
+        Pesan via WhatsApp
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2026 Telur Kampung Omega Premium • Semua Hak Dilindungi
+  </footer>
 
 </body>
 </html>
